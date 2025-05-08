@@ -1,0 +1,118 @@
+body{
+    background-color: #ffffff;
+    background-image: url(hiking.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+h1{
+    font-family:"Mona Sans", MonaSansFallback, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family:"Mona Sans", MonaSansFallback, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    color: rgb(255, 255, 255); 
+}
+
+img{
+    border-radius: 50px;
+    box-shadow: 3px 3px 25px;
+}
+.topnavbar{
+    font-family: 'Franklin Gothic Medium';
+    overflow:hidden;
+    background-color: #639427;
+    box-shadow: 1px 1px 20px;
+
+}
+
+.topnavbar img{
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+.topnavbar a{
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding: 10px;
+    float:left;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.topnavbar a:hover{
+    color: #ffffff70;
+}
+
+.loginbutton{
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium';
+    overflow:hidden;
+    background-color: #639427;
+    display: inline-block;
+    box-shadow: 1px 1px 10px;
+    padding: 8px;
+    margin: 10px;
+    margin-top: 350px;
+}
+
+.loginbutton a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-decoration:none;
+    padding: 10px;
+    display: flex;
+    transition: 0.5s;
+
+}
+.loginbutton a:hover{
+    background-color: #639427;
+    color: #ffffff70;
+}
+
+.functionsbutton{
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium';
+    overflow:hidden;
+    background-color: #a6a6a68c;
+    display: inline-block;
+    box-shadow: 1px 1px 10px;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+.functionsbutton a{
+    margin: 10;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-decoration:none;
+    padding: 10px;
+    display: flex;
+    transition: 0.5s;
+
+}
+.functionsbutton a:hover{
+    color: #ffffff70;
+    text-shadow: none
+    ;
+}
+
+.topnavbar input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 16px;
+    margin-top: 23px;
+    margin-right: 100px;
+    float: right;
+
+}
