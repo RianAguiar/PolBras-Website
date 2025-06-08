@@ -1,0 +1,82 @@
+body{
+    background-color: #ffffff;
+    background-image: url(contactsimage.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+h1{
+    font-family:"Mona Sans", MonaSansFallback, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 26px;
+    font-family:"Mona Sans", MonaSansFallback, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+img{
+    border-radius: 50px;
+    box-shadow: 3px 3px 25px;
+}
+.topnavbar{
+    font-family: 'Franklin Gothic Medium';
+    overflow:hidden;
+    background-color: #639427;
+    box-shadow: 1px 1px 20px;
+
+}
+
+.topnavbar img{
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+.topnavbar a{
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding: 10px;
+    float:left;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.topnavbar a:hover{
+    color: #ffffff70;
+}
+
+.topnavbar input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 16px;
+    margin-top: 23px;
+    margin-right: 100px;
+    float: right;
+
+}
+
+.bigsquare{
+    height: 570px;
+    width: 1000px;
+    background-color: #00000073;
+    position: relative;
+    border-radius: 70px;
+
+}
+
+.text{  
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* For precise centering */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
